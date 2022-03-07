@@ -1,17 +1,15 @@
 import 'package:flutter/material.dart';
-
 class Gender extends StatefulWidget {
   const Gender({Key? key}) : super(key: key);
-
   @override
   _GenderState createState() => _GenderState();
 }
-
 class _GenderState extends State<Gender>
 {
   int currentValue = 1;
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context)
+  {
     return Scaffold(
       appBar: AppBar(),
       body:buildGender(),
